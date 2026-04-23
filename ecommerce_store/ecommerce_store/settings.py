@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'ecommerce_store.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django_mongodb_backend',
-        'HOST': 'mongodb://localhost:27017/',
+        'HOST': 'mongodb+srv://e-commercestore213:<your-password>@store.mfkryek.mongodb.net/e-Commercedb?retryWrites=true&w=majority',
         'NAME': 'e-Commercedb',
     },
 }
